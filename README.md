@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # aladia_flutter_selection
 
 A new Flutter project.
