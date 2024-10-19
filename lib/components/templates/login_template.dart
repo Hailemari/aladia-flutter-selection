@@ -8,12 +8,12 @@ class LoginTemplate extends StatelessWidget {
   final VoidCallback onLogin;
 
   const LoginTemplate({
-    Key? key,
+    super.key,
     required this.formKey,
     required this.emailController,
     required this.passwordController,
     required this.onLogin,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

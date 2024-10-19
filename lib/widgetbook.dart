@@ -10,7 +10,7 @@ import 'components/pages/login_page.dart';
 import 'components/templates/login_template.dart';
 
 class WidgetbookHotReload extends StatelessWidget {
-  const WidgetbookHotReload({Key? key}) : super(key: key);
+  const WidgetbookHotReload({super.key});
 
   @override
   Widget build(BuildContext context) {
